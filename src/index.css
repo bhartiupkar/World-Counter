@@ -1,0 +1,95 @@
+@keyframes jumpback {
+  0%{
+    bottom: 40px;
+  }
+  100%{
+    bottom: 0px;
+  }
+}
+@keyframes changimg {
+  0%{
+    height: 34vw;
+    margin: 30px auto;
+    /* position: relative;
+    left: 30px; */
+    /* background: url('/front1_img.jpg') no-repeat; */ width: 120%;
+    background-image: url('/front1_img.jpg') ;
+    background-repeat: no-repeat;
+    
+    
+    background-size: contain;
+    position: relative;
+  }
+  20%{
+    height: 34vw;
+    margin: 30px auto;
+    /* position: relative;
+    left: 30px; */
+    /* background: url('/front1_img.jpg') no-repeat; */
+      width: 120%;
+    background-image: url('/front2_img.webp') ;
+    background-repeat: no-repeat;
+    
+    
+    background-size: contain;
+    position: relative;
+  }
+  
+  40%{
+
+    height: 34vw;
+    margin: 30px auto;
+    /* position: relative;
+    left: 30px; */
+    /* background: url('/front1_img.jpg') no-repeat; */
+      width: 120%;
+    background-image: url('/front3_img.jpeg') ;
+    background-repeat: no-repeat;
+    
+    
+    background-size: contain;
+    position: relative;
+  }
+  60%{
+    height: 34vw;
+    margin: 30px auto;
+    /* position: relative;
+    left: 30px; */
+    /* background: url('/front1_img.jpg') no-repeat; */
+      width: 120%;
+    background-image: url('/front4_img.jpeg') ;
+    background-repeat: no-repeat;
+    color: black;
+    
+    background-size: contain;
+    position: relative;
+  }
+  80%{
+    height: 34vw;
+    margin: 30px auto;
+    /* position: relative;
+    left: 30px; */
+    /* background: url('/front1_img.jpg') no-repeat; */
+      width: 120%;
+    background-image: url('/front5_img.jpeg') ;
+    background-repeat: no-repeat;
+    
+    
+    background-size: contain;
+    position: relative;
+  }
+  100%{
+    height: 34vw;
+    margin: 30px auto;
+    /* position: relative;
+    left: 30px; */
+    /* background: url('/front1_img.jpg') no-repeat; */
+      width: 120%;
+    background-image: url('/front1_img.jpg') ;
+    background-repeat: no-repeat;
+    
+    
+    background-size: contain;
+    position: relative;
+  }
+}
